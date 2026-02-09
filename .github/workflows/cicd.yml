@@ -29,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/two-tier-flask-app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/two-tier-flask-app:latest
